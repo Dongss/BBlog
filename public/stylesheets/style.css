@@ -1,8 +1,54 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.border-radius-0 {
+	border-radius: 0px;
 }
+.padding-10 {
+	  padding: 10px;
+}
+.padding-left-50 {
+	padding-left: 50px;
+}
+.left-panel {
+	overflow-y: scroll;
+    display: none;
+    width: 220px;
+    //padding: 20px;
+    //background-color: #051059;
+    //color: #f8f8f8;
+    //border: 0px;
+ }
 
-a {
-  color: #00B7FF;
+/*二级菜单*/
+.menu-second li a{
+    background-color: #f6f6f6;
+    height:31px;
+    line-height:31px;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    font-size: 12px;
+    text-align:center;
+}
+/*二级菜单鼠标划过样式*/
+.left-panel li a:hover {
+    text-decoration: none;
+    background-color: #66c3ec;
+    border-top: 1px solid #83ceed;
+    border-bottom: 1px solid #83ceed;
+    border-right: 3px solid #f8881c;
+    border-left: 3px solid #66c3ec;
+}
+/*二级菜单选中状态*/
+.menu-second-selected {
+    background-color: #C0C0C0;
+    height:31px;
+    line-height:31px;
+    border-top: 1px solid #83ceed;
+    border-bottom: 1px solid #83ceed;
+    border-right: 3px solid #f8881c;
+    border-left: 3px solid #66c3ec;
+    text-align:center;
+}
+/*覆盖bootstrap的样式*/
+.nav-list,.nav-list li a{
+    padding: 0px;
+    margin: 0px;
 }
