@@ -9,9 +9,11 @@ requirejs.config({
 });
 
 // Panel slider & menu
-require(['jquery', 'panelslider', 'bootstrap'], function ($, panelslider) {
-	$('#left-panel-link').panelslider();
-    $('#close-panel-bt').click(function() {
-      	$.panelslider.close();
+require(['jquery'], function ($, panelslider) {
+    require(['panelslider', 'bootstrap'], function(panelslider) {
+        $('#left-panel-link').panelslider();
+        $('#close-panel-bt').click(function() {
+            $.panelslider.close();
+        });
     });
 });
