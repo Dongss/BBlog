@@ -8,7 +8,7 @@ requirejs.config({
     }
 });
 
-// Panel slider
+// Panel slider & menu
 require(['jquery', 'panelslider', 'bootstrap'], function ($, panelslider) {
 	$('#left-panel-link').panelslider();
     $('#close-panel-bt').click(function() {
