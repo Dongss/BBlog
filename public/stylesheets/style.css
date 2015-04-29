@@ -1,5 +1,14 @@
+body {
+    overflow-x: hidden;
+}
+.border-0 {
+    border: 0;
+}
 .border-radius-0 {
 	border-radius: 0px;
+}
+.margin-bottom-0 {
+    margin-bottom: 0px;
 }
 .padding-10 {
 	  padding: 10px;
@@ -11,7 +20,20 @@
 	overflow-y: scroll;
     display: none;
     width: 220px;
+    border: 0px;
  }
+.burn-out {
+    white-space:nowrap;
+    color: #ADAB95;
+    background: #F2F2F2;
+    height: 180px;
+    font-size: 25px;
+    text-align: center;
+}
+.burn {   
+    font-size: 70px;
+    //text-align: center;
+}
 
 /*二级菜单*/
 .menu-second li a i{
