@@ -1,6 +1,9 @@
 body {
     overflow-x: hidden;
 }
+.width-200-px {
+    width: 200px;
+}
 .border-0 {
     border: 0;
 }
@@ -15,6 +18,26 @@ body {
 }
 .padding-left-50 {
 	padding-left: 50px;
+}
+.min-width-1200 {
+    min-width: 1200px;
+}
+.left {
+    //background: #F2F2F2;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: 200px;
+    //border: 0;
+    border-radius: 0px;
+    float: left;
+    margin-top: 1px;
+}
+.center {
+    float: left;
+    width: 900px;
+    margin: 30px;
+    border-radius: 0px;
+
 }
 .left-panel {
 	overflow-y: scroll;
