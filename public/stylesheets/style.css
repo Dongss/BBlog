@@ -31,6 +31,11 @@ body {
     border-radius: 0px;
     float: left;
     margin-top: 1px;
+    padding: 20px;
+}
+.left-title {
+    font-size: 25px;
+    font-family: Microsoft YaHei;
 }
 .center {
     float: left;
@@ -44,6 +49,12 @@ body {
     display: none;
     width: 220px;
     border: 0px;
+    font-family: Microsoft YaHei;
+    font-size: 15px;
+ }
+ .left-panel i {
+    margin-right: 10px;
+    margin-left: 15px;
  }
 .burn-out {
     white-space:nowrap;
@@ -55,7 +66,6 @@ body {
 }
 .burn {   
     font-size: 70px;
-    //text-align: center;
 }
 
 /*二级菜单*/
@@ -65,10 +75,7 @@ body {
 .menu-second li a{
     background-color: #f6f6f6;
     height: 40px;
-    line-height:31px;
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
-    font-size: 15px;
-    text-align:left;
 }
 
