@@ -4,14 +4,13 @@ requirejs.config({
         'jquery': 'libs/jquery',
         'panelslider': 'libs/jquery.panelslider.min',
         'eventproxy': 'libs/eventproxy',
-        'bootstrap': '../stylesheets/bootstrap/js/bootstrap.min',
-        'burn': 'libs/jquery.burn.min'
+        'bootstrap': '../stylesheets/bootstrap/js/bootstrap.min'
     }
 });
 
 // Panel slider & menu
 require(['jquery'], function ($, panelslider) {
-    require(['panelslider', 'burn', 'bootstrap'], function(panelslider) {
+    require(['panelslider', 'bootstrap'], function(panelslider) {
 
         // Panel slider
         $('#left-panel-link').panelslider();
@@ -19,12 +18,5 @@ require(['jquery'], function ($, panelslider) {
             $.panelslider.close();
         });
 
-        // burn and no burn
-        $('.burn').mouseover(function(event) {
-                $('.burn').burn();
-            }); 
-        $('.burn').mouseout(function(event) {
-            $('.burn').burn(false);
-        });
     });
 });
