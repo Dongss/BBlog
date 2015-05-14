@@ -1,4 +1,4 @@
-body {
+﻿body {
     overflow-x: hidden;
     min-width: 1350px;
 }
@@ -101,7 +101,7 @@ body {
 .article-title a:hover {
     color: #818181;
 }
-.toc {
+#toc {
     float: right;
     font-size: 10pt;
     width: 200px;

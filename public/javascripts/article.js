@@ -5,7 +5,7 @@ requirejs.config({
         'panelslider': 'libs/jquery.panelslider.min',
         'eventproxy': 'libs/eventproxy',
         'bootstrap': '../stylesheets/bootstrap/js/bootstrap.min',
-        'toc': 'libs/jquery.tableofcontents.min'
+        'toc': 'libs/jquery.tableofcontents'
     }
 });
 
@@ -21,7 +21,7 @@ require(['jquery'], function ($, panelslider) {
 
         // toc
         $(document).ready(function(){
-            $(".toc").tableOfContents();
+            $("#toc").tableOfContents();
         });
 
     });
