@@ -2,9 +2,6 @@ body {
     overflow-x: hidden;
     min-width: 1350px;
 }
-.clear {
-
-}
 .width-200-px {
     width: 200px;
 }
@@ -93,7 +90,7 @@ body {
 .article-title a {
     font-size: 30px;
     text-decoration: none;
-    color: #000000;
+    color: #565656;
 }
 .article-footer  {
     text-align: right;

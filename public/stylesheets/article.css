@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    min-width: 1350px;
 }
 .width-200-px {
     width: 200px;
@@ -23,11 +24,9 @@ body {
     min-width: 1200px;
 }
 .left {
-    //background: #F2F2F2;
     border-top-width: 0px;
     border-bottom-width: 0px;
     width: 200px;
-    //border: 0;
     border-radius: 0px;
     float: left;
     margin-top: 1px;
@@ -38,11 +37,21 @@ body {
     font-family: Microsoft YaHei;
 }
 .center {
-    float: left;
-    width: 900px;
-    margin: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    width: 888px;
     border-radius: 0px;
-
+    padding: 20px;
+}
+.right {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: 200px;
+    border-radius: 0px;
+    float: right;
+    margin-top: 1px;
+    padding: 20px;
 }
 .left-panel {
 	overflow-y: scroll;
@@ -64,10 +73,6 @@ body {
     font-size: 25px;
     text-align: center;
 }
-.burn {   
-    font-size: 70px;
-}
-
 /*二级菜单*/
 .menu-second li a i{
 	padding-left: 30px;
@@ -78,4 +83,30 @@ body {
     border-top: 1px solid #efefef;
     border-bottom: 1px solid #efefef;
 }
-
+.article {
+    border-bottom-width: 1px;
+    border-bottom-color: #D7D7D7;
+    border-bottom-style: dashed;
+}
+.article-title a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #565656;
+}
+.article-footer  {
+    text-align: right;
+    font-size: 13px;
+    color: #909090;
+}
+.article-title a:hover {
+    color: #818181;
+}
+.toc {
+    float: right;
+    font-size: 10pt;
+    width: 200px;
+    padding: 10px 10px 10px 20px;
+    background: #efffb1;
+    border: solid 1px #ccd136;
+    margin: 0 0 10px 15px;
+}

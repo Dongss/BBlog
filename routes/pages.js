@@ -7,6 +7,10 @@ router.get('/', function(req, res, next) {
 
 router.get('/blog', function(req, res, next) {
 	res.render('blog', {jsFile: 'blog', cssFile: 'blog'});
-})
+});
+
+router.get('/blog/article', function(req, res, next) {
+	res.render('article', {jsFile: 'article', cssFile: 'article'});
+});
 
 module.exports = router;
