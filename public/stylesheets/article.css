@@ -2,6 +2,14 @@
     overflow-x: hidden;
     min-width: 1350px;
 }
+.header {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.content {
+    margin-top: 65px;
+}
 .width-200-px {
     width: 200px;
 }
@@ -31,6 +39,7 @@
     float: left;
     margin-top: 1px;
     padding: 20px;
+    position: fixed;
 }
 .left-title {
     font-size: 25px;
@@ -102,11 +111,10 @@
     color: #818181;
 }
 #toc {
-    float: right;
+    //float: right;
     font-size: 10pt;
-    width: 200px;
-    padding: 10px 10px 10px 20px;
-    background: #efffb1;
-    border: solid 1px #ccd136;
-    margin: 0 0 10px 15px;
+    //background: #efffb1;
+    word-wrap: break-word;
+    width: 170px;
+
 }

@@ -1,6 +1,13 @@
 body {
     overflow-x: hidden;
 }
+.header {
+    position: fixed;
+    top: 0px;
+}
+.content {
+    top: 100px;
+}
 .width-200-px {
     width: 200px;
 }
