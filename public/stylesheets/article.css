@@ -3,12 +3,8 @@
     min-width: 1350px;
 }
 .header {
-    position: fixed;
-    top: 0px;
+    display: block;
     width: 100%;
-}
-.content {
-    margin-top: 65px;
 }
 .width-200-px {
     width: 200px;
@@ -93,22 +89,17 @@
     border-bottom: 1px solid #efefef;
 }
 .article {
-    border-bottom-width: 1px;
-    border-bottom-color: #D7D7D7;
-    border-bottom-style: dashed;
-}
-.article-title a {
-    font-size: 30px;
-    text-decoration: none;
-    color: #565656;
+    
+
 }
 .article-footer  {
     text-align: right;
     font-size: 13px;
     color: #909090;
 }
-.article-title a:hover {
-    color: #818181;
+.article-title {
+    font-size: 30px;
+    color: #6390C3;
 }
 #toc {
     //float: right;
